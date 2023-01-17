@@ -24,9 +24,9 @@ class base
  	 	void display()
  	 	 {
  	 	 	 cout << "\nDisplay of Derived";
-		   }
+		 }
 		   
-	 void show()
+	       void show()
 		 {
 		 	 cout << "\nShow of Derived";
 		 }
@@ -65,16 +65,5 @@ int main()
 	 bptr -> show();
 	 
 	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 return 0;
+         return 0;
  }
